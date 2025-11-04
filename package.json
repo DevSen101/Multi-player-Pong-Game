@@ -1,0 +1,22 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSen101/Multi-player-Pong-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSen101/Multi-player-Pong-Game/issues"
+  },
+  "homepage": "https://github.com/DevSen101/Multi-player-Pong-Game#readme",
+  "description": "",
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
