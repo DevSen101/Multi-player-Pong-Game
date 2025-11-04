@@ -24,4 +24,13 @@ io.on('connection', (socket) => {
     io.emit('startGame', socket.id)
   }
  })
+  
+ socket.on('paddleMove', (paddleData) => {
+  socket.broadcast.emit('paddlemove', paddleData)
+ })
+
+ socket.on('ballMove', (ballData) => {
+  socket.broadcast.emit('ballMove', ballData)
+ })
+
 })
